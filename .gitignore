@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Memex-specific
+tools/index.pkl
+tools/vector_store/
+tools/compression.log
+memory/summaries/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# User-specific memory (don't commit personal data!)
+memory/*.md
+MEMORY.md
+AGENTS.md
+TOOLS.md
+HEARTBEAT.md

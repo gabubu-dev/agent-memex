@@ -1,0 +1,13 @@
+# Memex Memory System Dependencies
+
+# Core (lightweight) - TF-IDF search
+scikit-learn>=1.0.0
+
+# Optional (advanced) - Neural embeddings
+# Uncomment if you want to use the advanced neural search:
+# chromadb>=0.4.0
+# sentence-transformers>=2.2.0
+
+# Utilities
+# numpy>=1.24.0  # Usually comes with scikit-learn
+# tqdm>=4.65.0   # For progress bars (optional)
